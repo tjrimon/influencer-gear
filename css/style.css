@@ -1,0 +1,58 @@
+/*=============
+  Defaulst Css
+  =============*/
+  .btn{}
+
+  /*============
+   Header section
+   ==============  */
+   .header-section h3{
+
+   }
+
+    /*============
+   Banner section
+   ==============  */
+   .banner-section .content {}
+   .banner-section .content h2{}
+   .banner-section .content p{}
+   .banner-image img{
+
+   }
+
+     /*============
+   Product section
+   ==============  */
+   .product-sec-title h2{}
+   .products{}
+   .products .product-item{}
+   .products .product-item img{}
+   .products .product-item h3{}
+   .products .product-item .price{}
+   .products .product-item .rating{}
+   .products .product-item .rating i{}
+   .products .product-item .rating p{}
+   .products .product-item p{}
+
+
+       /*============
+   Featured section
+   ==============  */
+
+   #featured-section{}
+   .featured-info{}
+   .featured-info img{}
+   .featured-info .featured-content{}
+   .featured-info .featured-content h2{}
+   .featured-info .featured-content p{}
+
+       /*============
+   Footer section
+   ==============  */
+
+   #footer{}
+   .footer-container{}
+   .footer-container h2{}
+   .footer-container p{}
+   .footer-container .footer-icon{}
+   .footer-container .footer-icon i{}
