@@ -297,6 +297,9 @@ padding: 16px 0 6px;
 body{
     width: 100%;
 }
+.header-sec h3 {
+    margin: 0px;
+}
 
     .sec-container{width: 100%;}
     .banner-image{
