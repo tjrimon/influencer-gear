@@ -62,17 +62,29 @@ font-weight: 700;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 20px;
 }
-   .banner-section .content {
+.banner-content,.banner-image{
+    transform: translateY(22px);
+    transition: .5s ease-out;
+}
+.banner-image:hover{
+    transform: translateX(0);
+    transition: .5s ease-in-out;
+}
+.banner-content:hover{
+    transform: translateX(0);
+    transition: .5s ease-in-out;
+}
+   .banner-section .banner-content {
     /* width: 600px; */
 }
-   .banner-section .content h2{
+   .banner-section .banner-content h2{
     font-weight: 700;
     font-size: 52px;
     line-height: 70px;
 }
-   .banner-section .content p{
+   .banner-section .banner-content p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
@@ -123,6 +135,7 @@ margin-left: 133p;
     width: 300px;
     /* height: 476px; */
 }
+
 .see-more-btn{
     float: right;
     margin-top: 25px;
@@ -235,3 +248,112 @@ padding: 16px 0 6px;
     padding: 10px;
     border-radius: 50px;
 }
+
+ /*============
+   Media Query section
+   ==============  */
+   @media only screen and (max-width:992px){
+       .container {
+
+    width: 100%;}
+    .banner-section{
+        margin: 0px 30px;
+        padding: 50px 20px 80px;
+    }
+    .banner-section .banner-content h2{
+        font-size: 33px;
+    line-height: 50px;
+    }
+    .header-section h3 {
+    margin-left: 50px;
+}
+.header-section {
+    margin-top: 60px;
+}
+.products{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}
+#footer{
+    width: 100%;
+}
+.featured-info{
+    grid-template-columns: 1fr 1.5fr;
+    padding-left: 35px;
+    margin: 100px 2%;
+}
+.featured-info img {
+    width: 100%;
+}
+
+
+   }
+
+
+
+   
+   @media only screen and (max-width:688px) {
+
+body{
+    width: 100%;
+}
+
+    .container{width: 100%;}
+    .banner-image{
+        order: 1;
+        text-align: center;
+        margin: 0;
+    }
+    .banner-content{
+        order: 2;
+        padding:40px 0px 0px;
+        text-align: center;
+    }
+    .banner-section{
+        grid-template-columns: 1fr;
+    }
+    .banner-image img{
+        width: 350px;
+    }
+    .header-section{
+        width: 100%;
+    }
+    .header-section h3 {
+
+    text-align: center;
+}
+.products {
+    grid-template-columns: 1fr;
+    width: 100%;
+
+}
+.see-more-btn {
+    float: none;
+    padding: 30px;
+}
+.banner-image img {
+    width: 75%;
+}
+.featured-info {
+    grid-template-columns: 1fr;
+    padding: 50px;
+        margin:0px;
+}
+.featured-info img{
+    order:2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.featured-content{
+    order:1;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#footer{
+    width: 100%;
+    margin-top: 0px;
+}
+   }
+   
