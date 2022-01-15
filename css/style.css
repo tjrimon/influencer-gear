@@ -333,7 +333,9 @@ body{
 }
 .see-more-btn {
     float: none;
+    display: block;
     padding: 30px;
+    text-align: right;
 }
 
 .featured-info {
