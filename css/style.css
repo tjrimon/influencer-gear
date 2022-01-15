@@ -31,7 +31,7 @@ background-color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
 }
-.container{
+.sec-container{
   width: 1120px;
   margin: 0 auto;
   /* display: grid; */
@@ -42,10 +42,10 @@ background-color: #FFFFFF;
   /*============
    Header section
    ==============  */
-   .header-section{
+   .header-sec{
     margin-top: 87px;
 }
-   .header-section h3{
+   .header-sec h3{
 
 font-size: 24px;
 
@@ -58,7 +58,7 @@ font-weight: 700;
     /*============
    Banner section
    ==============  */
-   .banner-section{
+   .banner-sec{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -76,15 +76,15 @@ font-weight: 700;
     transform: translateX(0);
     transition: .5s ease-in-out;
 }
-   .banner-section .banner-content {
+   .banner-sec .banner-content {
     /* width: 600px; */
 }
-   .banner-section .banner-content h2{
+   .banner-sec .banner-content h2{
     font-weight: 700;
     font-size: 52px;
     line-height: 70px;
 }
-   .banner-section .banner-content p{
+   .banner-sec .banner-content p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
@@ -126,12 +126,12 @@ margin-left: 133p;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
 }
-   .products .product-item{
+   .products .product-grid{
     box-shadow: 10px 10px 10px #f5f5f5;
     border-radius: 10px;
     padding: 17px 15px 20px;
 }
-   .products .product-item img{
+   .products .product-grid img{
     width: 300px;
     /* height: 476px; */
 }
@@ -145,7 +145,7 @@ margin-left: 133p;
     text-decoration: none;
     line-height: 24px;
 }
-   .products .product-item h3{
+   .products .product-grid h3{
 
 font-weight: 500;
 
@@ -155,22 +155,22 @@ line-height: 40px;
 
 padding: 16px 0 6px;
 }
-   .products .product-item .price{
+   .products .product-grid .price{
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
 }
-   .products .product-item .rating{
+   .products .product-grid .rating{
     display: flex;
     padding: 10px 0px;
 }
-   .products .product-item .rating i{}
-   .products .product-item .rating p{
+   .products .product-grid .rating i{}
+   .products .product-grid .rating p{
     font-size: 13px;
     line-height: 20px;
     letter-spacing: 0.1px;
 }
-   .products .product-item p{
+   .products .product-grid p{
     font-family: 'Inter';
     font-size: 14px;
     font-weight: 600;
@@ -181,7 +181,7 @@ padding: 16px 0 6px;
    Featured section
    ==============  */
 
-   #featured-section{}
+   #featured-sec{}
    .featured-info{
     margin-top: 130px;
     display: grid;
@@ -222,25 +222,25 @@ padding: 16px 0 6px;
     text-align: center;
     margin-top: 100px;
 }
-   .footer-container{}
-   .footer-container h2{
+   .footer-sec-container{}
+   .footer-sec-container h2{
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     color: #fff;
 }
-   .footer-container p{
+   .footer-sec-container p{
     font-weight: 500;
     color: #fff;
     padding: 10px 0;
     font-size: 14px;
     line-height: 24px;
 }
-   .footer-container .footer-icon{
+   .footer-sec-container .footer-icon{
     margin-top: 10px;
     height: #fff;
 }
-   .footer-container .footer-icon i{
+   .footer-sec-container .footer-icon i{
     color: #fff;
     font-size: 20px;
     background: #323054;
@@ -253,21 +253,21 @@ padding: 16px 0 6px;
    Media Query section
    ==============  */
    @media only screen and (max-width:992px){
-       .container {
+       .sec-container {
 
     width: 100%;}
-    .banner-section{
+    .banner-sec{
         margin: 0px 30px;
         padding: 50px 20px 80px;
     }
-    .banner-section .banner-content h2{
+    .banner-sec .banner-content h2{
         font-size: 33px;
     line-height: 50px;
     }
-    .header-section h3 {
+    .header-sec h3 {
     margin-left: 50px;
 }
-.header-section {
+.header-sec {
     margin-top: 60px;
 }
 .products{
@@ -298,27 +298,28 @@ body{
     width: 100%;
 }
 
-    .container{width: 100%;}
+    .sec-container{width: 100%;}
     .banner-image{
         order: 1;
         text-align: center;
         margin: 0;
+        width: 100%;
     }
     .banner-content{
         order: 2;
         padding:40px 0px 0px;
         text-align: center;
     }
-    .banner-section{
+    .banner-sec{
         grid-template-columns: 1fr;
     }
     .banner-image img{
         width: 350px;
     }
-    .header-section{
+    .header-sec{
         width: 100%;
     }
-    .header-section h3 {
+    .header-sec h3 {
 
     text-align: center;
 }
