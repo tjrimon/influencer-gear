@@ -331,10 +331,10 @@ body{
     width: 100%;
 
 }
-.see-more-btn {
+.sec-container .see-more-btn {
     float: none;
-    display: block;
     padding: 30px;
+    display: block;
     text-align: right;
 }
 
