@@ -307,6 +307,7 @@ body{
     }
     .banner-sec{
         padding: 50px 20px 80px;
+        margin:0px;
     }
     .banner-content{
         order: 2;
