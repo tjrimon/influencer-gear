@@ -353,5 +353,9 @@ body{
     width: 100%;
     margin-top: 0px;
 }
+.featured-info .featured-content {
+   margin:0px;
+}
+
    }
    
