@@ -362,6 +362,18 @@ body{
 .featured-info .featured-content {
    margin:0px;
 }
+.banner-content,.banner-image{
+    transform: translateY(0px);
+    transition: .0s ease-out;
+}
+.banner-image:hover{
+    transform: translateX(0);
+    transition: 0s ease-in-out;
+}
+.banner-content:hover{
+    transform: translateX(0);
+    transition: 0s ease-in-out;
+}
 
    }
    
